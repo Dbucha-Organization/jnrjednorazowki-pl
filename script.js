@@ -252,3 +252,8 @@ if (ageModal) {
         });
     }
 }
+
+const yearSpan = document.querySelector('#year');
+if (yearSpan) {
+    yearSpan.innerText = new Date().getFullYear();
+}
